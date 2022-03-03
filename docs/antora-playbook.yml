@@ -9,7 +9,7 @@ content:
     - url: '../../react-hooks-in-action'
       start_path: docs
       tags: [v*]
-      branches: [dev*,f*,m*,p*]
+      branches: [dev*,f*,m*,p*,0*]
 ui:
   bundle:
     url: 'ui-bundle-hj.zip'
