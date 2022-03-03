@@ -1,6 +1,6 @@
 name: react-hooks-in-action
 title: react-hooks-in-action
-version: master
+version: 0201-pages
 start_page: README.adoc
 nav:
 - modules/ROOT/nav.adoc
