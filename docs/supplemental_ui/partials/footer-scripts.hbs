@@ -1,0 +1,8 @@
+<script src="{{uiRootPath}}/js/site.js"></script>
+{{#if (eq site.keys.docSearchEngine 'lunr')}}
+<script src="{{uiRootPath}}/js/vendor/lunr.js"></script>
+<script src="{{{uiRootPath}}}/js/search-ui.js" id="search-ui-script" data-site-root-path="{{{siteRootPath}}}" data-snippet-length="${snippetLength}" data-stylesheet="{{{uiRootPath}}}/css/search.css"></script>
+<script async src="{{{siteRootPath}}}/search-index.js"></script>
+{{/if}}
+<script src="{{uiRootPath}}/js/vendor/highlight.js"></script>
+<script>hljs.highlightAll();</script>

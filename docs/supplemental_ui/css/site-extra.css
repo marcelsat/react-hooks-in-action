@@ -1,0 +1,19 @@
+.doc .imageblock {
+    align-items: normal !important;
+}
+
+/*Permet de surcharger text-align de .doc .imageblock .title grâce à !important*/
+/*text-align est mis à unset car il est à left par défaut et cela empêche de centrer ou ranger à droite le titre associé à l'image */
+.doc .imageblock .title {
+    text-align: unset !important;
+}
+
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}

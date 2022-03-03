@@ -1,0 +1,27 @@
+site:
+  title: react-hooks-in-action
+  start_page: react-hooks-in-action::README.adoc
+  keys:
+    noEdit: true
+    docSearchEngine: 'lunr'
+content:
+    sources:
+    - url: '../../react-hooks-in-action'
+      start_path: docs
+      tags: [v*]
+      branches: [dev*,f*,m*]
+ui:
+  bundle:
+    url: 'ui-bundle-hj.zip'
+  supplemental_files: ./supplemental_ui
+asciidoc:
+  attributes:
+    page-toclevels: 3@
+    page-pagination: true
+    kroki-server-url: "http://192.168.122.154:8000"
+  extensions:
+    - asciidoctor-kroki
+    - 'tab-block-extensions.js'
+antora:
+  extensions:
+    - require: '@antora/lunr-extension'
